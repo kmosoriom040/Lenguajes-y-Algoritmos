@@ -1,1 +1,1 @@
-Mi nombre es brayan andres, esoty en 3 semestre.
+Mi nombre es brayan andres.
