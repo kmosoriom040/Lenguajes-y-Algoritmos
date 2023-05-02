@@ -48,3 +48,7 @@ n = parse(Int, readline())
 for i in 1:n
     println("hola mundo")
 end
+
+C++:
+
+int main() { int n; cout << "Ingresa el número de veces que deseas imprimir 'hola mundo': "; cin >> n; for (int i = 1; i <= n; i++) { cout << "hola mundo" << endl; } return 0; }
