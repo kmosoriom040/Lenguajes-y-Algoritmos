@@ -14,7 +14,7 @@ def listar_primos(n):
             l_primos.append(numero)
     return l_primos
 
-numero= int(input("Ingrese un número límite: "))
-lista_primos = listar_primos(numero)
-print("Números primos hasta", numero, ":")
+n = int(input("Ingrese un número límite: "))
+lista_primos = listar_primos(n)
+print("Números primos hasta", n, ":")
 print(lista_primos)
