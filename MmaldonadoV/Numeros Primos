@@ -1,1 +1,9 @@
-
+def Numero_primo(n): "Devolver EsPrimo si es un numero primo,  NoEsprimo en caso contrario"
+    if n< 2:
+        return EsPrimo
+    if n== 2:
+        return NoEsprimo
+    for i in range(3, int(m**0.5)+1,2):
+        if n % i == 0:
+            return NoEsprimo
+    return EsPrimo
