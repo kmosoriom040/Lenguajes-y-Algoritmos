@@ -1,0 +1,38 @@
+Python:
+Print(Hola, mundo)
+
+
+C:
+#include <stdio.h>
+
+int main() {
+   printf("Hola, mundo\n");
+   return 0;
+}
+
+
+C++:
+#include <iostream>
+
+int main() {
+   std::cout << "Hola, mundo" << std::endl;
+   return 0;
+}
+
+
+Java:
+public class HolaMundo {
+   public static void main(String[] args) {
+      System.out.println("Hola, mundo");
+   }
+}
+
+
+Fortran:
+program hola_mundo
+   write(*,*) 'Hola, mundo'
+end program hola_mundo
+
+
+Julia:
+println("Hola, mundo")
