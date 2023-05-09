@@ -1,9 +1,18 @@
-def Numero_primo(n): "Devolver EsPrimo si es un numero primo,  NoEsprimo en caso contrario"
-    if n< 2:
-        return EsPrimo
-    if n== 2:
-        return NoEsprimo
-    for i in range(3, int(m**0.5)+1,2):
-        if n % i == 0:
-            return NoEsprimo
-    return EsPrimo
+def es_primo(n):
+    if n <= 1:
+        return False
+    elif n <= 3:
+        return True
+    elif n % 2 == 0 or n % 3 == 0:
+        return False
+
+    # Verificar divisibilidad por números impares hasta la raíz cuadrada de n
+    i = 5
+    while i*i <= n:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+
+    # Si no se encuentra un divisor hasta la raíz cuadrada de n, es primo
+    return True
+
