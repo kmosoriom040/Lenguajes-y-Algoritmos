@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, i;
+
+    printf("Ingrese la cantidad de veces que desea imprimir 'Hola Mundo': ");
+    scanf("%d", &n);
+
+    for(i=0; i<n; i++)
+    {
+        printf("Hola Mundo\n");
+    }
+
+    return 0;
+}

@@ -10,7 +10,7 @@ for i in range(cantidad):
 
 print("Hola mundo")
 
-Julia-Código:
+-Julia-Código:
 
 println("Ingrese la cantidad de veces que desea imprimir 'Hola mundo': ")
 cantidad = parse(Int, readline())
@@ -19,7 +19,7 @@ for i in 1:cantidad
 println("Hola mundo")
 end
 
-Fortran-Código:
+-Fortran-Código:
 
 program hola_mundo
 implicit none
@@ -34,7 +34,7 @@ end do
 
 end program hola_mundo
 
-C++-Código:
+-C++-Código:
 
 #include <iostream.h>
 
@@ -54,7 +54,7 @@ return 0;
 
 }
 
-C-Código:
+-C-Código:
 
 #include <stdio.h>
 
