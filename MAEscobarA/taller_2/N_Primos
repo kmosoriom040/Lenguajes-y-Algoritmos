@@ -1,1 +1,18 @@
 def primo(numero):  ##Creo una clase para definir que es un número primo
+  if numero==1:     ##Si el numero es igual a uno ejecute
+    return False    ##Si no es así no haga nada, o envie un falso lógico.
+  for i in range(2, numero): ##Cree una variable i que pertenezca al intervalo entre 2 y el número
+    if numero % i ==0:  ##Si el número inicial dividido algún i tiene como residuo 0 ejecute
+      return False  ##Envie un falso lógico
+  return True       ##Envie un verdadero lógico y continue
+
+contador=0          ##Indicar donde inicia el contador
+numero=2            ##Primer número primo
+limite=float(input("Ingrese la cantidad de números primos que desea obtener.")) ##Ingrese la cantidad de números primos que sea obtener
+
+while contador < limite:      ##Mientras que'l contador funcione, ejecute
+  if primo(numero):           ##Si el número es primo, ejecute
+    contador +=1              ##avance
+    print(contador, numero)   ##Imprima el número del primo y el primo perse
+    
+  numero += 1                 ##Pase al siguiente primo
