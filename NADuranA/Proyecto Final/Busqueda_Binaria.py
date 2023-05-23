@@ -30,7 +30,7 @@ def busqueda_binaria(lista, n, objetivo):
 
 if __name__ == '__main__':
 	## iniciando el proceso para que el usuario provea una lista 
-	lista =  list(input("Dame una lista ordenada ([[]] para terminar): "))
+	lista =  list(input("inserte la lista de numeros ordenados en la que desea buscar: "))
 	n = len(lista)
 	elemento_objetivo=input("Por favor el numero el cual desea comprobar que esta en la lista:")
 	# se hace que el usuario pida buscar el elemento
