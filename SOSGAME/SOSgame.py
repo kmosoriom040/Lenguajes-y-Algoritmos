@@ -283,4 +283,4 @@ while(True) :
     loop_no+=1
     inputa()
     write()
-    judge()
+    judge() 
